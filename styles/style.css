@@ -4,20 +4,26 @@ html {
 }
 
 body {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #ccffec;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  border: 5px solid #032d1e;
 }
 
-h1 {
-  font-size: 60px;
+h3 {
+  font-size: 40px;
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: #00539F;
-  text-shadow: 3px 3px 1px black;
+  color: #0d6847;
+  text-shadow: 2px 2px 1px gray;
+}
+h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  padding: 20px 0;
 }
 
 p, li {
@@ -29,4 +35,21 @@ p, li {
 img {
   display: block;
   margin: 0 auto;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
