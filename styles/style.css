@@ -1,4 +1,8 @@
 .constructor
 {
   margin: auto;
+  padding-top: 25%;
+}
+p{
+  text-align: center;
 }
